@@ -6,3 +6,4 @@ Thumbs.db
 *.lock
 node_modules/
 dist/
+*.zip
