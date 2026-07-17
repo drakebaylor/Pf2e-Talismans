@@ -1,8 +1,22 @@
 {
-  "example-module": {
+  "pf2e-talismans": {
+    "dialog": {
+      "title": "Affix {talisman}",
+      "prompt": "Choose an item for {talisman}. Its usage is {usage}.",
+      "target": "Affix to",
+      "affix": "Affix Talisman"
+    },
+    "effect": {
+      "name": "{talisman} Talisman affixed to {target}",
+      "description": "<p><strong>{talisman}</strong> is affixed to {target}.</p>"
+    },
     "notifications": {
-      "loaded": "Example Module loaded.",
-      "wrongSystem": "Example Module requires the Pathfinder Second Edition (pf2e) system."
+      "loaded": "Pf2e Talismans loaded.",
+      "wrongSystem": "Pf2e Talismans requires the Pathfinder Second Edition (pf2e) system.",
+      "noPermission": "You do not have permission to modify this character.",
+      "noTargets": "This character has no valid target for a talisman with the usage “{usage}”.",
+      "targetMissing": "The selected item no longer exists.",
+      "affixed": "{talisman} was affixed to {target}."
     },
     "settings": {
       "exampleSetting": {

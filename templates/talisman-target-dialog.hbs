@@ -1,0 +1,14 @@
+<div class="pf2e-talismans talisman-target-dialog">
+  <p>{{prompt}}</p>
+
+  <div class="form-group">
+    <label for="pf2e-talismans-target">{{targetLabel}}</label>
+    <div class="form-fields">
+      <select id="pf2e-talismans-target" name="targetId" required autofocus>
+        {{#each targets}}
+          <option value="{{id}}">{{name}} ({{type}})</option>
+        {{/each}}
+      </select>
+    </div>
+  </div>
+</div>

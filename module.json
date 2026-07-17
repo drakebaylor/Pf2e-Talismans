@@ -1,8 +1,8 @@
 {
-  "id": "example-module",
-  "title": "Example Module",
-  "description": "A blank Pathfinder Second Edition module for Foundry Virtual Tabletop.",
-  "version": "0.1.0",
+  "id": "pf2e-talismans",
+  "title": "Pf2e Talismans",
+  "description": "A Pathfinder Second Edition module for Foundry Virtual Tabletop focused on talismans.",
+  "version": "0.2.0",
   "authors": [
     {
       "name": "Your Name"

@@ -1,4 +1,5 @@
 import { MODULE_ID, localize } from "../constants.js";
+import { registerTalismanUse } from "../talismans.js";
 
 /** Foundry `ready` hook — world data and documents are available. */
 export function onReady() {
@@ -9,5 +10,6 @@ export function onReady() {
     return;
   }
 
+  registerTalismanUse();
   console.log(`${MODULE_ID} | ${localize("notifications.loaded")}`);
 }
