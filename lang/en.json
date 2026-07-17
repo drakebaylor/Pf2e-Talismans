@@ -1,0 +1,14 @@
+{
+  "example-module": {
+    "notifications": {
+      "loaded": "Example Module loaded.",
+      "wrongSystem": "Example Module requires the Pathfinder Second Edition (pf2e) system."
+    },
+    "settings": {
+      "exampleSetting": {
+        "name": "Example Setting",
+        "hint": "An example world setting. Replace or remove this when you add real settings."
+      }
+    }
+  }
+}
